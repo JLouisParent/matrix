@@ -1,0 +1,474 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-family: monospace;
+}
+
+body {
+  background-color: #000;
+}
+
+.cell {
+  /* display: inline-block; */
+  height: 27px;
+  width: 26.7px;
+  color: #000a00;
+  text-align: center;
+}
+
+.test {
+  color: yellow;
+}
+
+.column {
+  display: inline-block;
+}
+
+.cell.active {
+  color: #FFF;
+}
+
+.cell.decay0 {
+  color: #000a00;
+}
+
+.cell.decay1 {
+  -webkit-animation: fadeToBlack 2s ease-in-out alternate;
+          animation: fadeToBlack 2s ease-in-out alternate;
+  color: rgba(0, 200, 0, 0.01);
+}
+
+.cell.decay2 {
+  -webkit-animation: fadeToBlack 2s ease-in-out alternate;
+          animation: fadeToBlack 2s ease-in-out alternate;
+  color: rgba(0, 200, 0, 0.02);
+}
+
+.cell.decay3 {
+  -webkit-animation: fadeToBlack 2s ease-in-out alternate;
+          animation: fadeToBlack 2s ease-in-out alternate;
+  color: rgba(0, 200, 0, 0.03);
+}
+
+.cell.decay4 {
+  -webkit-animation: fadeToBlack 2s ease-in-out alternate;
+          animation: fadeToBlack 2s ease-in-out alternate;
+  color: rgba(0, 200, 0, 0.04);
+}
+
+.cell.decay5 {
+  -webkit-animation: fadeToBlack 2s ease-in-out alternate;
+          animation: fadeToBlack 2s ease-in-out alternate;
+  color: rgba(0, 200, 0, 0.05);
+}
+
+.cell.decay6 {
+  -webkit-animation: fadeToBlack 2s ease-in-out alternate;
+          animation: fadeToBlack 2s ease-in-out alternate;
+  color: rgba(0, 200, 0, 0.06);
+}
+
+.cell.decay7 {
+  -webkit-animation: fadeToBlack 2s ease-in-out alternate;
+          animation: fadeToBlack 2s ease-in-out alternate;
+  color: rgba(0, 200, 0, 0.07);
+}
+
+.cell.decay8 {
+  -webkit-animation: fadeToBlack 2s ease-in-out alternate;
+          animation: fadeToBlack 2s ease-in-out alternate;
+  color: rgba(0, 200, 0, 0.08);
+}
+
+.cell.decay9 {
+  -webkit-animation: fadeToBlack 2s ease-in-out alternate;
+          animation: fadeToBlack 2s ease-in-out alternate;
+  color: rgba(0, 200, 0, 0.09);
+}
+
+.cell.decay10 {
+  color: rgba(0, 200, 0, 0.1);
+}
+
+.cell.decay11 {
+  color: rgba(0, 200, 0, 0.11);
+}
+
+.cell.decay12 {
+  color: rgba(0, 200, 0, 0.12);
+}
+
+.cell.decay13 {
+  color: rgba(0, 200, 0, 0.13);
+}
+
+.cell.decay14 {
+  color: rgba(0, 200, 0, 0.14);
+}
+
+.cell.decay15 {
+  color: rgba(0, 200, 0, 0.15);
+}
+
+.cell.decay16 {
+  color: rgba(0, 200, 0, 0.16);
+}
+
+.cell.decay17 {
+  color: rgba(0, 200, 0, 0.17);
+}
+
+.cell.decay18 {
+  color: rgba(0, 200, 0, 0.18);
+}
+
+.cell.decay19 {
+  color: rgba(0, 200, 0, 0.19);
+}
+
+.cell.decay20 {
+  color: rgba(0, 200, 0, 0.2);
+}
+
+.cell.decay21 {
+  color: rgba(0, 200, 0, 0.21);
+}
+
+.cell.decay22 {
+  color: rgba(0, 200, 0, 0.22);
+}
+
+.cell.decay23 {
+  color: rgba(0, 200, 0, 0.23);
+}
+
+.cell.decay24 {
+  color: rgba(0, 200, 0, 0.24);
+}
+
+.cell.decay25 {
+  color: rgba(0, 200, 0, 0.25);
+}
+
+.cell.decay26 {
+  color: rgba(0, 200, 0, 0.26);
+}
+
+.cell.decay27 {
+  color: rgba(0, 200, 0, 0.27);
+}
+
+.cell.decay28 {
+  color: rgba(0, 200, 0, 0.28);
+}
+
+.cell.decay29 {
+  color: rgba(0, 200, 0, 0.29);
+}
+
+.cell.decay30 {
+  color: rgba(0, 200, 0, 0.3);
+}
+
+.cell.decay31 {
+  color: rgba(0, 200, 0, 0.31);
+}
+
+.cell.decay32 {
+  color: rgba(0, 200, 0, 0.32);
+}
+
+.cell.decay33 {
+  color: rgba(0, 200, 0, 0.33);
+}
+
+.cell.decay34 {
+  color: rgba(0, 200, 0, 0.34);
+}
+
+.cell.decay35 {
+  color: rgba(0, 200, 0, 0.35);
+}
+
+.cell.decay36 {
+  color: rgba(0, 200, 0, 0.36);
+}
+
+.cell.decay37 {
+  color: rgba(0, 200, 0, 0.37);
+}
+
+.cell.decay38 {
+  color: rgba(0, 200, 0, 0.38);
+}
+
+.cell.decay39 {
+  color: rgba(0, 200, 0, 0.39);
+}
+
+.cell.decay40 {
+  color: rgba(0, 200, 0, 0.4);
+}
+
+.cell.decay41 {
+  color: rgba(0, 200, 0, 0.41);
+}
+
+.cell.decay42 {
+  color: rgba(0, 200, 0, 0.42);
+}
+
+.cell.decay43 {
+  color: rgba(0, 200, 0, 0.43);
+}
+
+.cell.decay44 {
+  color: rgba(0, 200, 0, 0.44);
+}
+
+.cell.decay45 {
+  color: rgba(0, 200, 0, 0.45);
+}
+
+.cell.decay46 {
+  color: rgba(0, 200, 0, 0.46);
+}
+
+.cell.decay47 {
+  color: rgba(0, 200, 0, 0.47);
+}
+
+.cell.decay48 {
+  color: rgba(0, 200, 0, 0.48);
+}
+
+.cell.decay49 {
+  color: rgba(0, 200, 0, 0.49);
+}
+
+.cell.decay50 {
+  color: rgba(0, 200, 0, 0.5);
+}
+
+.cell.decay51 {
+  color: rgba(0, 200, 0, 0.51);
+}
+
+.cell.decay52 {
+  color: rgba(0, 200, 0, 0.52);
+}
+
+.cell.decay53 {
+  color: rgba(0, 200, 0, 0.53);
+}
+
+.cell.decay54 {
+  color: rgba(0, 200, 0, 0.54);
+}
+
+.cell.decay55 {
+  color: rgba(0, 200, 0, 0.55);
+}
+
+.cell.decay56 {
+  color: rgba(0, 200, 0, 0.56);
+}
+
+.cell.decay57 {
+  color: rgba(0, 200, 0, 0.57);
+}
+
+.cell.decay58 {
+  color: rgba(0, 200, 0, 0.58);
+}
+
+.cell.decay59 {
+  color: rgba(0, 200, 0, 0.59);
+}
+
+.cell.decay60 {
+  color: rgba(0, 200, 0, 0.6);
+}
+
+.cell.decay61 {
+  color: rgba(0, 200, 0, 0.61);
+}
+
+.cell.decay62 {
+  color: rgba(0, 200, 0, 0.62);
+}
+
+.cell.decay63 {
+  color: rgba(0, 200, 0, 0.63);
+}
+
+.cell.decay64 {
+  color: rgba(0, 200, 0, 0.64);
+}
+
+.cell.decay65 {
+  color: rgba(0, 200, 0, 0.65);
+}
+
+.cell.decay66 {
+  color: rgba(0, 200, 0, 0.66);
+}
+
+.cell.decay67 {
+  color: rgba(0, 200, 0, 0.67);
+}
+
+.cell.decay68 {
+  color: rgba(0, 200, 0, 0.68);
+}
+
+.cell.decay69 {
+  color: rgba(0, 200, 0, 0.69);
+}
+
+.cell.decay70 {
+  color: rgba(0, 200, 0, 0.7);
+}
+
+.cell.decay71 {
+  color: rgba(0, 200, 0, 0.71);
+}
+
+.cell.decay72 {
+  color: rgba(0, 200, 0, 0.72);
+}
+
+.cell.decay73 {
+  color: rgba(0, 200, 0, 0.73);
+}
+
+.cell.decay74 {
+  color: rgba(0, 200, 0, 0.74);
+}
+
+.cell.decay75 {
+  color: rgba(0, 200, 0, 0.75);
+}
+
+.cell.decay76 {
+  color: rgba(0, 200, 0, 0.76);
+}
+
+.cell.decay77 {
+  color: rgba(0, 200, 0, 0.77);
+}
+
+.cell.decay78 {
+  color: rgba(0, 200, 0, 0.78);
+}
+
+.cell.decay79 {
+  color: rgba(0, 200, 0, 0.79);
+}
+
+.cell.decay80 {
+  color: rgba(0, 200, 0, 0.8);
+}
+
+.cell.decay81 {
+  color: rgba(0, 200, 0, 0.81);
+}
+
+.cell.decay82 {
+  color: rgba(0, 200, 0, 0.82);
+}
+
+.cell.decay83 {
+  color: rgba(0, 200, 0, 0.83);
+}
+
+.cell.decay84 {
+  color: rgba(0, 200, 0, 0.84);
+}
+
+.cell.decay85 {
+  color: rgba(0, 200, 0, 0.85);
+}
+
+.cell.decay86 {
+  color: rgba(0, 200, 0, 0.86);
+}
+
+.cell.decay87 {
+  color: rgba(0, 200, 0, 0.87);
+}
+
+.cell.decay88 {
+  color: rgba(0, 200, 0, 0.88);
+}
+
+.cell.decay89 {
+  color: rgba(0, 200, 0, 0.89);
+}
+
+.cell.decay90 {
+  color: rgba(0, 200, 0, 0.9);
+}
+
+.cell.decay91 {
+  color: rgba(0, 200, 0, 0.91);
+}
+
+.cell.decay92 {
+  color: rgba(0, 200, 0, 0.92);
+}
+
+.cell.decay93 {
+  color: rgba(0, 200, 0, 0.93);
+}
+
+.cell.decay94 {
+  color: rgba(0, 200, 0, 0.94);
+}
+
+.cell.decay95 {
+  color: rgba(0, 200, 0, 0.95);
+}
+
+.cell.decay96 {
+  color: rgba(0, 200, 0, 0.96);
+}
+
+.cell.decay97 {
+  color: rgba(0, 200, 0, 0.97);
+}
+
+.cell.decay98 {
+  color: rgba(0, 200, 0, 0.98);
+}
+
+.cell.decay99 {
+  color: rgba(0, 200, 0, 0.99);
+}
+
+.cell.decay100 {
+  color: #FFF;
+}
+
+.cell.decay100.black {
+  opacity: 0;
+}
+
+.cell.decay100 {
+  color: #fff;
+  text-shadow: 0 0 3px #00ff51;
+}
+
+@-webkit-keyframes fadeToBlack {
+  to {
+    color: #000a00;
+  }
+}
+
+@keyframes fadeToBlack {
+  to {
+    color: #000a00;
+  }
+}
+/*# sourceMappingURL=style.css.map */
